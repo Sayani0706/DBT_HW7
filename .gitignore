@@ -1,0 +1,15 @@
+# dbt build artifacts
+target/
+dbt_packages/
+logs/
+
+# local/editor stuff
+.DS_Store
+.vscode/
+.idea/
+
+# envs & secrets
+.env
+.venv/
+*.key
+*.pem

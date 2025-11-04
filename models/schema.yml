@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: session_summary
+    description: "Final session summary model"
+    columns:
+      - name: sessionId
+        description: "Unique session identifier"
+        tests:
+          - unique
+          - not_null
